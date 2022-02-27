@@ -1,0 +1,32 @@
+.meal-container{
+    padding-top: 10vh;
+}
+.mealbanner{
+    width: 100vw;
+    height: 40vh;
+    background-color: black;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mealbanner>img{
+    height: 100%;
+    width: 1200px;
+    object-fit: cover;
+}
+.meal-cover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #000000 15%, rgba(0, 0, 0, 0.6) 50%, #000000 80%);
+}
+.meal-title{
+    position: absolute;
+    /* top: 0; */
+}
+.meal-content{
+    padding: 5% 15% 0;
+}

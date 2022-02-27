@@ -1,0 +1,32 @@
+.category-container{
+    padding-top: 10vh;
+}
+.category-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.category-flex>div>img{
+    width: 100%;
+    height: 100%;
+}
+.caption-container{
+    position: relative;
+}
+.caption{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.753);
+    opacity: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caption:hover{
+    /* display: block; */
+    opacity: 1;
+    
+    cursor: pointer;
+}
