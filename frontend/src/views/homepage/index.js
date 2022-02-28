@@ -35,7 +35,7 @@ const Homepage = () =>{
                 <h2>Choose a Category</h2>
                 <div className="categories-grid">
                     {categories.map((cat)=>(
-                        <div onClick={()=>filterByCategory(cat.strCategory)} key={cat.idCategory}>
+                        <div onClick={()=>navigate(`/category/${cat.strCategory}`)} key={cat.idCategory}>
                             <img width="150" src={cat.strCategoryThumb}/>
                             <h5>{cat.strCategory}</h5>
                         </div>

@@ -15,7 +15,7 @@ function App() {
             element = {<HomePage/>}
           />
           <Route
-            path = "/category"
+            path = "/category/:categoryId"
             element = {<Category/>}
           />
           <Route
@@ -23,7 +23,7 @@ function App() {
             element = {<Search/>}
           />
           <Route
-            path = "/meal"
+            path = "/meal/:mealId"
             element = {<Meal/>}
           />
         </Routes>

@@ -20,16 +20,36 @@
     display: flex;
     justify-content: center;
 }
+
 #searchbar{
     width: 100%;
     height: 40px;
     border-radius: 10px;
     border: 1px solid black;
+    padding-left: 1rem;
 }
-.search-container>button{
-    margin-top: 40px;
+#searchBtn{
+    margin-top: 1em;
     width: 100%;
     color: white;
     height: 40px;
     background-color:  var(--maroon);
+}
+.search-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 245px);
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.search-placard{
+    margin: 7.5px 0 0 0;
+    height: 245px;
+    position: relative;
+    text-align: center;
+
+}
+.search-placard img{
+    width: 100%;
+    height: 100%;
 }

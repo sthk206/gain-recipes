@@ -19,7 +19,7 @@
 .meal-cover{
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background: linear-gradient(270deg, #000000 15%, rgba(0, 0, 0, 0.6) 50%, #000000 80%);
 }
@@ -28,5 +28,28 @@
     /* top: 0; */
 }
 .meal-content{
-    padding: 5% 15% 0;
+    display: flex;
+    flex-direction: column;
+    margin: 3em 12em;
+}
+#ingredient-table{
+    margin: 16px 0 0 0 ;
+    text-align: left;
+    /* border-spacing: 2em; */
+    border-collapse: collapse;
+
+
+}
+
+#ingredient-table  td, #ingredient-table th{
+    padding: 0.5em 1em ;
+    border: 1px solid black;
+}
+
+.meal-content ol{
+    line-height: 3em;
+}
+
+.meal-content iframe, .meal-content h1{
+    margin-top: 1em;
 }
