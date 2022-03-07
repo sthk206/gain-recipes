@@ -2,6 +2,10 @@
     --cream: #EAE0D5;  
     --maroon: #2F1616;
 }
+*{
+    box-sizing: border-box;
+
+}
 @font-face {
     font-family: Open-Sans;
     src: url(./fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);

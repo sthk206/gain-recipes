@@ -1,0 +1,78 @@
+.addmeal-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 175px;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.addmeal-container input{
+    height: 40px;
+    /* margin-top: 1em; */
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    padding-left: 1em;
+}
+.addmeal-container h4{
+    margin-top: 50px;
+}
+.additem{
+    width: 100%;
+    height: 40px;
+    background-color: var(--cream);
+    /* color: white; */
+    border: 1px solid var(--maroon);
+    color: var(--maroon);
+
+
+
+    /* width: 200px;
+    height: 50px; */
+
+}
+.additem:hover{
+    background-color: var(--maroon);
+    color: white;
+}
+
+.addmeal-name input{
+    width: 100%;
+}
+.addmeal-ingredients input{
+    width: 48%;
+}
+.ingredient-row:first-child{
+    border-radius:  20px 0 0 20px ;
+
+}
+.addmeal-instructions input{
+    width: 96%;
+}
+.ingredient-name{
+    border-radius: 5px 0 0 5px;
+}
+.ingredient-amt{
+    border-radius:  0 5px 5px 0;
+
+}
+.removeitem{
+    color: white;
+    background-color: rgb(255, 104, 104);
+    border: 1px solid rgb(255, 104, 104);
+    border-radius: 50px;
+    font-weight: 600;
+    width: 25px;
+    height: 25px;
+}
+.ingredient-row, .instruction-row{
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    justify-content: space-between;
+}
+.addmeal-container>button:last-child{
+    margin: 50px 0;
+    background-color: rgb(228, 255, 228);
+    height: 50px;
+    width: 20%;
+}

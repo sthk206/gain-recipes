@@ -18,6 +18,8 @@ const NavBar = (props) =>{
                 <li onClick={()=>navigate("/search")} >Search</li>
                 <li onClick={()=>navigate("/category/Dessert")} >Category</li>
                 <li onClick={()=>navigate("/meal/52772")} >Meal</li>
+                <li onClick={()=>navigate("/login")} >Login</li>
+                <li onClick={()=>navigate("/addmeal")} >Add Meal</li>
             </ul>
             
         </nav>
